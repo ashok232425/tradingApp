@@ -6,6 +6,7 @@ import OrderWindow from './components/OrderWindow.vue'
 import MyOrderbook from './components/MyOrderbook.vue'
 import MyHoldings from './components/MyHoldings.vue'
 import MyChart from './components/MyChart.vue'
+import './index.css'
 
 const routes = [
   { path: '/', redirect: '/watchlist' }, // Redirect to watchlist by default
