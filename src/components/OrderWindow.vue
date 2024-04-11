@@ -11,8 +11,8 @@
         <input type="text" id="quantity" v-model="quantity" placeholder="Enter quantity" class="input-field">
       </div>
       <div class="flex justify-between">
-        <button @click="placeOrder('buy')" class="action-button2 bg-green-500">Buy</button>
-        <button @click="placeOrder('sell')" class="action-button1 bg-red-500">Sell</button>
+        <button @click="placeOrder('buy')" class="action-button bg-green-500">Buy</button>
+        <button @click="placeOrder('sell')" class="action-button bg-red-500">Sell</button>
       </div>
     </div>
   </div>
@@ -56,16 +56,9 @@ export default {
   border: 1px solid #ccc;
 }
 
-.action-button1 {
+.action-button {
   padding: 8px 16px;
-  color: red;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-.action-button2 {
-  padding: 8px 16px;
-  color: blue;
+  color: black;
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s ease;
